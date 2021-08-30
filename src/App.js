@@ -5,7 +5,7 @@ import Carousel from './Carousel';
 
 const App=()=>{
   return (
-    <div className="App mt-5 ">
+    <div className="container p-5 mx-auto">
       <Carousel/>
     </div>
   );
