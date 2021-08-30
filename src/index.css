@@ -8,6 +8,6 @@
   } 
   
   @media (max-width: 480px) {
-		.custom-btn-carousel{display: none !important;}
+	.custom-btn-carousel{display: none !important;}
   }  
 }
