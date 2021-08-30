@@ -3,10 +3,6 @@
 @tailwind utilities;
 
 @layer utilities {
-  .custom-btn-carousel:before {
-    content: none !important;
-  } 
-  
   @media (max-width: 480px) {
 	.custom-btn-carousel{display: none !important;}
   }  
