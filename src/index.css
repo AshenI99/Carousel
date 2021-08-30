@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.App, .slick-list{max-width: 80vw !important; margin: auto !important;}
+.App {margin-top: 50px !important;}
+.slick-list{padding-top: 30px !important}
+
+.slick-prev:before, .slick-next:before {
+    content: none !important;
+}
+.slick-prev, .slick-next {
+    width: 1.5rem !important;
+    height: 1.5rem !important;
+}
+
+@media (max-width: 480px) {
+	.slick-prev, .slick-next{display: none !important;}
+}
